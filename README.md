@@ -40,6 +40,7 @@ No requirements.
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws.east"></a> [aws.east](#provider\_aws.east) | n/a |
 
 ## Modules
 
