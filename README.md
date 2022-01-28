@@ -31,16 +31,17 @@ module "dns" {
 ## Detailed Notes
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
-| <a name="provider_aws.east"></a> [aws.east](#provider\_aws.east) | n/a |
+| Name                                                            | Version |
+| --------------------------------------------------------------- | ------- |
+| <a name="provider_aws"></a> [aws](#provider_aws)                | n/a     |
+| <a name="provider_aws.east"></a> [aws.east](#provider_aws.east) | n/a     |
 
 ## Modules
 
@@ -48,27 +49,28 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_cloudwatch_log_group.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group) | resource |
-| [aws_cloudwatch_log_resource_policy.route53-query](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_resource_policy) | resource |
-| [aws_route53_hosted_zone_dnssec.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_hosted_zone_dnssec) | resource |
-| [aws_route53_key_signing_key.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_key_signing_key) | resource |
-| [aws_route53_query_log.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_query_log) | resource |
-| [aws_route53_zone.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
-| [aws_iam_policy_document.route53-query-logging-policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
+| Name                                                                                                                                                           | Type        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [aws_cloudwatch_log_group.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group)                           | resource    |
+| [aws_cloudwatch_log_resource_policy.route53-query](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_resource_policy) | resource    |
+| [aws_route53_hosted_zone_dnssec.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_hosted_zone_dnssec)               | resource    |
+| [aws_route53_key_signing_key.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_key_signing_key)                     | resource    |
+| [aws_route53_query_log.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_query_log)                                 | resource    |
+| [aws_route53_zone.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone)                                           | resource    |
+| [aws_iam_policy_document.route53-query-logging-policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document)     | data source |
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| <a name="input_kms_key"></a> [kms\_key](#input\_kms\_key) | n/a | `any` | n/a | yes |
-| <a name="input_zone"></a> [zone](#input\_zone) | n/a | `any` | n/a | yes |
+| Name                                                               | Description                                        | Type       | Default | Required |
+| ------------------------------------------------------------------ | -------------------------------------------------- | ---------- | ------- | :------: |
+| <a name="input_common_tags"></a> [common_tags](#input_common_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a     |   yes    |
+| <a name="input_kms_key"></a> [kms_key](#input_kms_key)             | n/a                                                | `any`      | n/a     |   yes    |
+| <a name="input_zone"></a> [zone](#input_zone)                      | n/a                                                | `any`      | n/a     |   yes    |
 
 ## Outputs
 
 No outputs.
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
@@ -91,7 +93,7 @@ Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2021 James Woolfenden
+Copyright © 2021-2022 James Woolfenden
 
 ## License
 
