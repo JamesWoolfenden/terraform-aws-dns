@@ -76,6 +76,9 @@ No outputs.
 This is the policy required to build this project:
 
 <!-- BEGINNING OF PRE-COMMIT-PIKE DOCS HOOK -->
+<!-- END OF PRE-COMMIT-PIKE DOCS HOOK -->
+
+
 ## Related Projects
 
 Check out these related projects.
