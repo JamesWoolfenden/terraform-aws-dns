@@ -1,4 +1,5 @@
 resource "aws_kms_key" "examplea" {
+  # checkov:skip=CKV2_AWS_64: For example only, key policy managed via IAM
   #checkov:skip=CKV_AWS_33:just an example
   customer_master_key_spec = "ECC_NIST_P256"
   deletion_window_in_days  = 7
