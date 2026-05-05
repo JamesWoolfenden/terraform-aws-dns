@@ -1,6 +1,6 @@
 # terraform-aws-dns
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-dns/workflows/Verify%20and%20Bump/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-aws-dns)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-dns/workflows/Verify/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-aws-dns)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-dns.svg)](https://github.com/JamesWoolfenden/terraform-aws-dns/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-dns.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-dns/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
